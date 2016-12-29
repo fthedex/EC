@@ -1,4 +1,4 @@
-<!--A Design by W3layouts
+<!--A Design by W3layouts 
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -36,6 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       });
     });
   </script>
+
 </head>
 <body>
 <!--header-->
@@ -43,12 +44,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header-top">
 		<div class="container">
 				<div class="col-sm-4 logo">
-					<h1><a href="index.html">Jupiter <span>Accessories</span></a></h1>
+					<h1><a href="index.php">Jupiter <span>Accessories</span></a></h1>
 				</div>
 			<div class="col-sm-4 world">
 					<div class="cart box_1">
-						<a href="checkout.html">
-						<h3><div class="total">
+						<a href="checkout.php">
+						<h3> <div class="total">
 							<span class="simpleCart_total"></span></div>
 							<img src="images/cart.png" alt=""/></h3>
 						</a>
@@ -85,8 +86,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav nav_1">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="products.html">Products</a></li>
+							<li><a href="index.php">Home</a></li>
+
+							<li><a href="products.php">Products</a></li>
 						</ul>
 					 </div><!-- /.navbar-collapse -->
 				  
@@ -111,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p>	Shopping</p>
 					</div>				
 				</div>
-				<script>
+				 <script>
 						$(document).ready(function() {
 						$('.popup-with-zoom-anim').magnificPopup({
 							type: 'inline',
@@ -134,156 +136,74 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Products</li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">Single</li>
 			</ol>
 		</div>
 	</div>
-<!--content-->
-<div class="products">
-	<div class="container">
-		<h2>Products</h2>
-		<div class="col-md-12">
-			<div class="content-top1">
-				<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi.png" alt="" />
-						</a>
-						<h3><a href="single.html">Trouser</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi2.png" alt="" />
-						</a>
-						<h3><a href="single.html">Trouser</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi4.png" alt="" />
-						</a>
-						<h3><a href="single.html">Pant</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>	
-			
-			<div class="clearfix"> </div>
-			</div>	
-			<div class="content-top1">
-				<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi1.png" alt="" />
-						</a>
-						<h3><a href="single.html">Trouser</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi3.png" alt="" />
-						</a>
-						<h3><a href="single.html">Palazoo</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi12.png" alt="" />
-						</a>
-						<h3><a href="single.html">Palazoo</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>	
-			
-			<div class="clearfix"> </div>
-			</div>	
-			<div class="content-top1">
-				<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi9.png" alt="" />
-						</a>
-						<h3><a href="single.html">Trouser</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi11.png" alt="" />
-						</a>
-						<h3><a href="single.html">Jeans</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>	
-			<div class="col-md-4 col-md4">
-					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
-							<img class="img-responsive" src="images/pi10.png" alt="" />
-						</a>
-						<h3><a href="single.html">Trouser</a></h3>
-						<div class="price">
-								<h5 class="item_price">$300</h5>
-								<a href="#" class="item_add">Add To Cart</a>
-								<div class="clearfix"> </div>
-						</div>
-						
-					</div>
-				</div>
+<div class="single">
 
-				<div class="clearfix"> </div>
-			</div>
+<div class="container">
+<div class="col-md-12">
+	<div class="col-md-4 grid">
+		<div class="flexslider">
+			  <ul class="slides">
+			    <li data-thumb="images/si.jpg">
+			        <div class="thumb-image"> <img src="images/si.jpg" data-imagezoom="true" class="img-responsive"> </div>
+			    </li>
+			    <li data-thumb="images/si1.jpg">
+			         <div class="thumb-image"> <img src="images/si1.jpg" data-imagezoom="true" class="img-responsive"> </div>
+			    </li>
+			    <li data-thumb="images/si2.jpg">
+			       <div class="thumb-image"> <img src="images/si2.jpg" data-imagezoom="true" class="img-responsive"> </div>
+			    </li> 
+			  </ul>
 		</div>
+	</div>	
+<div class="col-md-8 single-top-in">
+						<div class="single-para simpleCart_shelfItem">
+							<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+							<div class="star-on">
+
+							<div class="clearfix"> </div>
+							</div>
+							
+								<label  class="add-to item_price">$70.5</label>
+							
+							<div class="available">
+								<h6>Available Options :</h6>
+								<ul>
+									
+								<li>Size:<select>
+									<option>Large</option>
+									<option>Medium</option>
+									<option>small</option>
+									<option>Large</option>
+									<option>small</option>
+								</select></li>
+								<li>Cost:
+										<select>
+										<option>U.S.Dollar</option>
+										<option>Euro</option>
+									</select></li>
+							</ul>
+						</div>
+								<a href="#" class="cart item_add">Add To Cart</a>
+						</div>
+					</div>
+			<div class="clearfix"> </div>
+			<div class="content-top1">
+
+
+			
+			<div class="clearfix"> </div>
+			</div>		
+</div>
+<!----->
 		<div class="clearfix"> </div>
 	</div>
-</div>
-<!--//content-->
+	</div>
 <!--footer-->
 <div class="footer">
 	<div class="container">
@@ -292,10 +212,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h3>Follow Us On</h3>
 				<div class="social-icons">
 					<ul class="social">
-						<li><a href="#"><i></i></a> </li>
-						<li><a href="#"><i class="facebook"></i></a></li>	
-						<li><a href="#"><i class="google"></i> </a></li>
-						<li><a href="#"><i class="linked"></i> </a></li>						
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i></i></a> </li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="google"></i> </a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="linked"></i> </a></li>
 					</ul>
 						<div class="clearfix"></div>
 				 </div>
@@ -303,7 +223,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"> </div>
 		</div>	
 	</div>
-	<div class="footer-bottom">
+		<div class="footer-bottom">
 		<div class="container">
 
 				<div class="col-md-3 footer-bottom-cate cate-bottom">
@@ -319,5 +239,65 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>
 <!--footer-->
+<!-- slide -->
+<script src="js/jquery.min.js"></script>
+<script src="js/imagezoom.js"></script>
+<!-- start menu -->
+<script type="text/javascript" src="js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+<script src="js/simpleCart.min.js"> </script>
+<!--initiate accordion-->
+						<script type="text/javascript">
+							$(function() {
+							    var menu_ul = $('.menu-drop > li > ul'),
+							           menu_a  = $('.menu-drop > li > a');
+							    menu_ul.hide();
+							    menu_a.click(function(e) {
+							        e.preventDefault();
+							        if(!$(this).hasClass('active')) {
+							            menu_a.removeClass('active');
+							            menu_ul.filter(':visible').slideUp('normal');
+							            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+							        } else {
+							            $(this).removeClass('active');
+							            $(this).next().stop(true,true).slideUp('normal');
+							        }
+							    });
+							
+							});
+						</script>
+						<!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<script>
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
+<!---pop-up-box---->
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!---//pop-up-box---->
+					 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>	
 </body>
 </html>

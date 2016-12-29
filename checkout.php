@@ -42,11 +42,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header-top">
 		<div class="container">
 				<div class="col-sm-4 logo">
-					<h1><a href="index.html">Jupiter <span>Accessories</span></a></h1>
+					<h1><a href="index.php">Jupiter <span>Accessories</span></a></h1>
 				</div>
 			<div class="col-sm-4 world">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.php">
 						<h3> <div class="total">
 							<span class="simpleCart_total"></span></div>
 							<img src="images/cart.png" alt=""/></h3>
@@ -84,9 +84,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav nav_1">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 
-							<li><a href="products.html">Products</a></li>
+							<li><a href="products.php">Products</a></li>
 
 						</ul>
 					 </div><!-- /.navbar-collapse -->
@@ -136,7 +136,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
 				<li class="active">Checkout</li>
 			</ol>
 		</div>
@@ -154,7 +154,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<th>Sub total</th>
 		  </tr>
 		  <tr>
-			<td class="ring-in"><a href="single.html" class="at-in"><img src="images/ce.jpg" class="img-responsive" alt=""></a>
+			<td class="ring-in"><a href="single.php" class="at-in"><img src="images/ce.jpg" class="img-responsive" alt=""></a>
 			<div class="sed">
 				<h5>Sed ut perspiciatis unde</h5>
 				<p>(At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium) </p>
@@ -167,7 +167,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<td>$100.00</td>
 		  </tr>
 		  <tr>
-		  <td class="ring-in"><a href="single.html" class="at-in"><img src="images/ce1.jpg" class="img-responsive" alt=""></a>
+		  <td class="ring-in"><a href="single.php" class="at-in"><img src="images/ce1.jpg" class="img-responsive" alt=""></a>
 			<div class="sed">
 				<h5>Sed ut perspiciatis unde</h5>
 				<p>(At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ) </p>
@@ -179,7 +179,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<td>$200.00</td>
 		  </tr>
 		  <tr>
-		  <td class="ring-in"><a href="single.html" class="at-in"><img src="images/ce2.jpg" class="img-responsive" alt=""></a>
+		  <td class="ring-in"><a href="single.php" class="at-in"><img src="images/ce2.jpg" class="img-responsive" alt=""></a>
 			<div class="sed">
 				<h5>Sed ut perspiciatis unde</h5>
 				<p>(At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium) </p>
@@ -203,10 +203,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h3>Follow Us On</h3>
 				<div class="social-icons">
 					<ul class="social">
-						<li><a href="#"><i></i></a> </li>
-						<li><a href="#"><i class="facebook"></i></a></li>	
-						<li><a href="#"><i class="google"></i> </a></li>
-						<li><a href="#"><i class="linked"></i> </a></li>						
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i></i></a> </li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="google"></i> </a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="linked"></i> </a></li>
 					</ul>
 						<div class="clearfix"></div>
 				 </div>

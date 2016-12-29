@@ -49,11 +49,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header-top">
 		<div class="container">
 				<div class="col-sm-4 logo animated wow fadeInLeft" data-wow-delay=".5s">
-					<h1><a href="index.html">Jupiter <span>Accessories</span></a></h1>
+					<h1><a href="index.php">Jupiter <span>Accessories</span></a></h1>
 				</div>
 			<div class="col-sm-4 world animated wow fadeInRight" data-wow-delay=".5s">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.php">
 						<h3> <div class="total">
 							<span class="simpleCart_total"></span></div>
 							<img src="images/cart.png" alt=""/></h3>
@@ -91,9 +91,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav nav_1">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 
-							<li><a href="products.html">Products</a></li>
+							<li><a href="products.php">Products</a></li>
 
 						</ul>
 					 </div><!-- /.navbar-collapse -->
@@ -170,12 +170,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="content-top1">
 				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=100">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct1.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Necklace</a></h3>
+						<h3><a href="single.php?itemID=100">Necklace</a></h3>
 						<div class="price">
 								<h5 class="item_price">13 JDS</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -192,12 +192,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=101">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct2.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Necklace</a></h3>
+						<h3><a href="single.php?itemID=101">Necklace</a></h3>
 						<div class="price">
 								<h5 class="item_price">12 JDS</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -215,7 +215,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="con-tp">
 		<div class="container">
 			<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
-				<a href="products.html">
+				<a href="products.php">
 					<div class="content-grid-effect slow-zoom vertical">
 						<div class="img-box"><img src="images/homePage6.jpg" alt="image" class="img-responsive zoom-img"></div>
 						<div class="info-box">
@@ -227,7 +227,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</a>
 			</div>
 			<div class="col-md-4 con-tp-lft animated wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-				<a href="products.html">			
+				<a href="products.php">			
 					<div class="content-grid-effect slow-zoom vertical">
 						<div class="img-box"><img src="images/homePage5.jpg" alt="image" class="img-responsive zoom-img"></div>
 							<div class="info-box">
@@ -239,7 +239,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</a>
 			</div>
 			<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
-				<a href="products.html">
+				<a href="products.php">
 					<div class="content-grid-effect slow-zoom vertical">
 						<div class="img-box"><img src="images/homePage4.jpg" alt="image" class="img-responsive zoom-img"></div>
 							<div class="info-box">
@@ -252,7 +252,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="clearfix"></div>
 		<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
-			<a href="products.html">
+			<a href="products.php">
 				<div class="content-grid-effect slow-zoom vertical">
 					<div class="img-box"><img src="images/homePage3.jpg" alt="image" class="img-responsive zoom-img"></div>
 						<div class="info-box">
@@ -264,7 +264,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</a>
 		</div>
 		<div class="col-md-4 con-tp-lft animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-			<a href="products.html">
+			<a href="products.php">
 				<div class="content-grid-effect slow-zoom vertical">
 					<div class="img-box"><img src="images/homePage2.jpg" alt="image" class="img-responsive zoom-img"></div>
 						<div class="info-box">
@@ -276,7 +276,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</a>
 		</div>
 		<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
-			<a href="products.html">
+			<a href="products.php">
 				<div class="content-grid-effect slow-zoom vertical">
 					<div class="img-box"><img src="images/homePage1.jpg" alt="image" class="img-responsive zoom-img"></div>
 						<div class="info-box">
@@ -295,12 +295,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container">
 				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=102">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct3.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Bookmark</a></h3>
+						<h3><a href="single.php?itemID=102">Bookmark</a></h3>
 						<div class="price">
 								<h5 class="item_price">1 JD</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -311,12 +311,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	
 			<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=103">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct4.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Watch</a></h3>
+						<h3><a href="single.php?itemID=103">Watch</a></h3>
 						<div class="price">
 								<h5 class="item_price">15 JDS</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -327,12 +327,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	
 			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=104">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct5.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Necklace</a></h3>
+						<h3><a href="single.php?itemID=104">Necklace</a></h3>
 						<div class="price">
 								<h5 class="item_price">12 JDS</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -343,12 +343,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>	
 			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
 					<div class="col-md1 simpleCart_shelfItem">
-						<a href="single.html">
+						<a href="single.php?itemID=105">
 							<div style="height:255px;width:176px; margin: auto">
 								<img style="width: 100%;" src="images/homePageProduct6.jpg" alt="" />
 							</div>
 						</a>
-						<h3><a href="single.html">Pins Set</a></h3>
+						<h3><a href="single.php?itemID=105">Pins Set</a></h3>
 						<div class="price">
 								<h5 class="item_price">5 JDS</h5>
 								<a href="#" class="item_add">Add To Cart</a>
@@ -369,10 +369,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h3>Follow Us On</h3>
 				<div class="social-icons">
 					<ul class="social">
-						<li><a href="#"><i></i></a> </li>
-						<li><a href="#"><i class="facebook"></i></a></li>	
-						<li><a href="#"><i class="google"></i> </a></li>
-						<li><a href="#"><i class="linked"></i> </a></li>						
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i></i></a> </li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="google"></i> </a></li>
+						<li><a href="https://www.facebook.com/jupiterbracelets/"><i class="linked"></i> </a></li>
 					</ul>
 						<div class="clearfix"></div>
 				 </div>
