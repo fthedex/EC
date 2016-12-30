@@ -250,17 +250,102 @@ echo "  <li data-thumb='images/homePageProduct1.jpg'>
 		</div>
 	</div>	
 <div class="col-md-8 single-top-in">
-						<div class="single-para simpleCart_shelfItem">
-							<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-							<div class="star-on">
 
-							<div class="clearfix"> </div>
+
+	<?php
+	if($itemID=="100"){
+
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Glow In The Dark Silver Moon Phases Necklace</h2>
+							<p> Has to be left in the sun for 10-15 minutes in order for it to glow in the dark! </p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
 							</div>
 							
-								<label  class="add-to item_price">$70.5</label>
+								<label  class='add-to item_price'>13 JDS</label>
+		";
+
+	}
+	else if($itemID=="101"){
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Best Friends Forever Necklaces</h2>
+							<p>3 pieces</p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
+							</div>
 							
-						
+								<label  class='add-to item_price'>13 JDS</label>
+		";
+
+	}
+	else if($itemID=="102"){
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Thin feather Bookmark</h2>
+							<p>One random bookmark, can be any of the shapes shown above.</p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
+							</div>
+							
+								<label  class='add-to item_price'>1 JDS</label>
+		";
+
+	}
+	else if($itemID=="103"){
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Because Cats Watch</h2>
+							<p>The listing of for one Watch as shown</p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
+							</div>
+							
+								<label  class='add-to item_price'>15 JDS</label>
+		";
+
+	}
+	else if($itemID=="104"){
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Deathly Hallows Watch Necklace</h2>
+							<p>The listing is for one Watch Necklace as shown</p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
+							</div>
+							
+								<label  class='add-to item_price'>12 JDS</label>
+		";
+
+	}
+	else {
+		echo "
+<div class='single-para simpleCart_shelfItem'>
+			<h2>Anatomical Pins Set</h2>
+							<p>The listing is for one set of 3 pins as shown </p>
+							<div class='star-on'>
+
+							<div class='clearfix'> </div>
+							</div>
+							
+								<label  class='add-to item_price'>5 JDS</label>
+		";
+
+	}
+
+
+
+	?>
+
+
+							
+
 								<a href="#" class="cart item_add">Add To Cart</a>
 						</div>
 					</div>
