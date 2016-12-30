@@ -39,6 +39,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 </head>
 <body>
+
+<?php
+
+$itemID = $_GET['itemID']; //ITEM ID
+
+
+?>
 <!--header-->
 <div class="header">
 	<div class="header-top">
@@ -144,19 +151,101 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="single">
 
 <div class="container">
-<div class="col-md-12">
+<div class="col-md-11">
 	<div class="col-md-4 grid">
 		<div class="flexslider">
 			  <ul class="slides">
-			    <li data-thumb="images/si.jpg">
-			        <div class="thumb-image"> <img src="images/si.jpg" data-imagezoom="true" class="img-responsive"> </div>
+
+				  <?php
+
+				 if($itemID=="100") { //product 1
+echo "  <li data-thumb='images/homePageProduct1.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct1.jpg' data-imagezoom='true' class='img-responsive'> </div>
 			    </li>
-			    <li data-thumb="images/si1.jpg">
-			         <div class="thumb-image"> <img src="images/si1.jpg" data-imagezoom="true" class="img-responsive"> </div>
+			    <li data-thumb='images/singlePageProduct1_2.png'>
+			         <div class='thumb-image'> <img src='images/singlePageProduct1_2.png' data-imagezoom='true' class='img-responsive'> </div>
 			    </li>
-			    <li data-thumb="images/si2.jpg">
-			       <div class="thumb-image"> <img src="images/si2.jpg" data-imagezoom="true" class="img-responsive"> </div>
-			    </li> 
+			    <li data-thumb='images/singlePageProduct1_3.png'>
+			       <div class='thumb-image'> <img src='images/singlePageProduct1_3.png' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>";
+				 }
+				  else if($itemID=="101"){ //product 2
+					  echo "
+					  <li data-thumb='images/homePageProduct2.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singlePageProduct2_2.jpg'>
+			         <div class='thumb-image'> <img src='images/singlePageProduct2_2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct2_3.jpg'>
+			       <div class='thumb-image'> <img src='images/singleProduct2_3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+					  ";
+
+				  }
+				  else if($itemID=="102"){ //product 3
+					  echo "
+					  <li data-thumb='images/homePageProduct3.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct3_2.jpg'>
+			         <div class='thumb-image'> <img src='images/singleProduct3_2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct3_3.jpg'>
+			       <div class='thumb-image'> <img src='images/singleProduct3_3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+					  ";
+
+				  }
+				  else if($itemID=="103"){ //4
+					  echo "
+					  <li data-thumb='images/homePageProduct4.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct4.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct4_2.jpg'>
+			         <div class='thumb-image'> <img src='images/singleProduct4_2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct4_3.jpg'>
+			       <div class='thumb-image'> <img src='images/singleProduct4_3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+					  ";
+				  }
+				  else if($itemID=="104"){ //5
+					  echo "
+					  <li data-thumb='images/homePageProduct5.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct5.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct5_2.jpg'>
+			         <div class='thumb-image'> <img src='images/singleProduct5_2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct5_3.jpg'>
+			       <div class='thumb-image'> <img src='images/singleProduct5_3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+					  ";
+
+
+				  }
+				  else{
+
+					  echo "
+					  <li data-thumb='images/homePageProduct6.jpg'>
+			        <div class='thumb-image'> <img src='images/homePageProduct6.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct6_2.jpg'>
+			         <div class='thumb-image'> <img src='images/singleProduct6_2.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+			    <li data-thumb='images/singleProduct6_3.jpg'>
+			       <div class='thumb-image'> <img src='images/singleProduct6_3.jpg' data-imagezoom='true' class='img-responsive'> </div>
+			    </li>
+					  ";
+
+				  }
+
+
+
+?>
+
+
 			  </ul>
 		</div>
 	</div>	
