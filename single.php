@@ -260,24 +260,7 @@ echo "  <li data-thumb='images/homePageProduct1.jpg'>
 							
 								<label  class="add-to item_price">$70.5</label>
 							
-							<div class="available">
-								<h6>Available Options :</h6>
-								<ul>
-									
-								<li>Size:<select>
-									<option>Large</option>
-									<option>Medium</option>
-									<option>small</option>
-									<option>Large</option>
-									<option>small</option>
-								</select></li>
-								<li>Cost:
-										<select>
-										<option>U.S.Dollar</option>
-										<option>Euro</option>
-									</select></li>
-							</ul>
-						</div>
+						
 								<a href="#" class="cart item_add">Add To Cart</a>
 						</div>
 					</div>
